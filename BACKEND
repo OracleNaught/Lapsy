@@ -1,0 +1,2 @@
+// this is where the magic happens. code for this area will be for how our app interacts with ADS and the cloud
+// note that we will not be configuring this until we have azure services up and running but we can create a mock up for directory if needed
