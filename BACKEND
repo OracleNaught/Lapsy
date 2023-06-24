@@ -1,2 +1,62 @@
 // this is where the magic happens. code for this area will be for how our app interacts with ADS and the cloud
 // note that we will not be configuring this until we have azure services up and running but we can create a mock up for directory if needed
+// path variable is example and will need to be edited later
+
+
+// python file detector
+
+
+import os
+
+path = "C:\\Users\\(var)\\Desktop\\(var)"
+
+if os.path.exists(path):
+  print("location exists")
+  if os.path.isfile(path):
+      print ("file exists")
+  elif os.path.isdir(path):
+      print("directory exists)
+else:
+  print(location not found")
+
+
+
+
+
+// python file organizer
+
+
+import os
+import shutil
+
+path = input("C:\\Users\\(var)\\Desktop\\(var)")
+files = os.listdir(file path)
+
+for file in files:
+  filename,extension = os.path.splitext(file)
+  extension = extension[1:]
+
+  if os.path.exists(path+'/'+extension):
+      shutil.move(path+'/'+file, path+'/'+extension+'/'+file)
+  else:
+      os.makedirs(path+'/'+extention)
+      shutil.move(path+'/'+file, path'/'+extension+'/'+file)
+
+
+
+
+
+
+// how to turn python file into .exe
+// first thing first you must open terminal and install a dependency
+
+
+pip install pyinstaller
+
+
+// then we have to point pyinstaller to the python file which contains the code and add annotation
+
+
+pyinstaller (filename) --onefile
+
+
