@@ -69,6 +69,8 @@ loss = -np.log (
 
 \\ how to create a node
 \\ increase weights and bias to expand total nimber of neurons
+\\ in order to impact output value we will need to tune the weight and bias values
+
 
 inputs = [var, var2, var3]
 
