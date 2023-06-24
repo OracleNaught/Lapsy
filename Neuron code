@@ -65,17 +65,30 @@ loss = -np.log (
 
 
 
+\\ variables should be pointed to objects later to score
 
 \\ how to create a node
+\\ increase weights and bias to expand total nimber of neurons
 
 inputs = [var, var2, var3]
-weights = [var4, var5, var6]
-bias = [num val]
+
+weights1 = [var4, var5, var6]
+weights2 = [var7, var8, var9]
+weights3 = [var10, var11, var12]
+
+bias1 = [num val2]
+bias2 = [num val3]
+bias3 = [num val4]
 
 
 
+// can scale this line to make more imput points
 
-output = inputs[val]*weights[val] + input[val2]*weights[val2] + inputs[val3]*weights[val3] + bias
+
+output = [inputs[val]*weights1[val] + input[val2]*weights1[val2] + inputs[val3]*weights1[val3] + bias1,
+          inputs[val]*weights2[val] + input[val2]*weights2[val2] + inputs[val3]*weights2[val3] + bias2,
+          inputs[val]*weights3[val] + input[val2]*weights3[val2] + inputs[val3]*weights3[val3] + bias3]
+
 print(output)
 
 
