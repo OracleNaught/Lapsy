@@ -1,0 +1,83 @@
+\\coded in pyython, dont forget to import dependencies first
+
+
+import sys
+import numpy as np
+import matplotlib
+
+print("Python:", sys.version)
+print("numpy:", , np.__version__)
+print("Matplotlib: ", matplotlib.__version__)
+
+
+
+\\ calculating log sum. should be flowed like example
+
+
+loss = -np.log (
+     np.sum (
+        y = np.exp (
+            np.dot (
+                np.maximum (
+                    0,
+                    np.dot (
+                        np.maximum (
+                            0,
+                            np.dot (
+                                x,
+                                w1.T
+                            ) + b1
+                        ),
+                        w2.T
+                    ) + b2
+                ),
+                w3.T
+            ) + b3
+        ) /
+        np.sum (
+            np.exp (
+                np.dot (
+                    np.maximum (
+                        0,
+                        np.dot (
+                            np.maximum (
+                                0,
+                                np.dot (
+                                    x,
+                                    w1.T
+                                ) + b1
+                            ),
+                            w2.T
+                        ) + b2
+                    ),
+                    w3.T
+                ) + b3
+            ),
+            axis=1,
+            keepdims=True
+        )
+    )
+)
+                      
+
+
+
+
+
+
+
+\\ how to create a node
+
+inputs = [var, var2, var3]
+weights = [var4, var5, var6]
+bias = [num val]
+
+
+
+
+output = inputs[val]*weights[val] + input[val2]*weights[val2] + inputs[val3]*weights[val3] + bias
+print(output)
+
+
+
+
