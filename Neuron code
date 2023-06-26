@@ -94,5 +94,5 @@ output = [inputs[val]*weights1[val] + input[val2]*weights1[val2] + inputs[val3]*
 print(output)
 
 
-
+\\ test
 
