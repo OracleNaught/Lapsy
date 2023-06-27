@@ -1,3 +1,36 @@
 // this space is for UIUX development of prject LAPSY
 // note that this is a passion project being developed by beginners as a proof of concept and may be subject to many bugs
-//
+
+
+
+//main page test layout
+
+
+<div class="AndroidLarge1" style="width: 360px; height: 800px; position: relative; background: white">
+  <div class="Rectangle1" style="width: 190px; height: 54px; left: 85px; top: 22px; position: absolute; background: #D9D9D9"></div>
+  <div class="Logo" style="left: 166px; top: 46px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">Logo</div>
+  <div class="Rectangle2" style="width: 271px; height: 445px; left: 44px; top: 259px; position: absolute; background: #D9D9D9"></div>
+  <div class="Rectangle3" style="width: 58px; height: 52px; left: 286px; top: 24px; position: absolute; background: #D9D9D9"></div>
+  <div class="DdMenu" style="left: 300px; top: 35px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">dd<br/>menu</div>
+  <div class="Ellipse1" style="width: 53px; height: 47px; left: 21px; top: 29px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+  <div class="UserPic" style="left: 35px; top: 38px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">user<br/>pic</div>
+  <div class="Rectangle4" style="width: 271px; height: 32px; left: 44px; top: 219px; position: absolute; background: #D9D9D9"></div>
+  <div class="ScrollingLeaderboards" style="width: 232px; left: 68px; top: 228px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word"><-----  scrolling leaderboards</div>
+  <div class="Rectangle5" style="width: 322px; height: 54px; left: 19px; top: 727px; position: absolute; background: #D9D9D9"></div>
+  <div class="Rectangle6" style="width: 82px; height: 53px; left: 234px; top: 149px; position: absolute; background: #D9D9D9"></div>
+  <div class="Rectangle7" style="width: 82px; height: 53px; left: 138px; top: 149px; position: absolute; background: #D9D9D9"></div>
+  <div class="Gallery" style="left: 166px; top: 169px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">gallery</div>
+  <div class="SocialMap" style="left: 258px; top: 160px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">social<br/>map</div>
+  <div class="Rectangle8" style="width: 82px; height: 53px; left: 44px; top: 149px; position: absolute; background: #D9D9D9"></div>
+  <div class="AddNewPic" style="left: 79px; top: 157px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">add<br/>new<br/>pic</div>
+  <div class="Ellipse2" style="width: 53px; height: 52px; left: 68px; top: 263px; position: absolute; background: #EC721B; border-radius: 9999px"></div>
+  <div class="Ellipse3" style="width: 53px; height: 52px; left: 65px; top: 327px; position: absolute; background: #C32E2E; border-radius: 9999px"></div>
+  <div class="Ellipse4" style="width: 53px; height: 52px; left: 65px; top: 391px; position: absolute; background: #C32E2E; border-radius: 9999px"></div>
+  <div class="Ellipse5" style="width: 53px; height: 52px; left: 65px; top: 455px; position: absolute; background: #C32E2E; border-radius: 9999px"></div>
+  <div class="Ellipse6" style="width: 53px; height: 52px; left: 65px; top: 519px; position: absolute; background: #C32E2E; border-radius: 9999px"></div>
+  <div class="Rectangle9" style="width: 146px; height: 36px; left: 126px; top: 271px; position: absolute; background: #E4BC55"></div>
+  <div class="Rectangle10" style="width: 146px; height: 36px; left: 154px; top: 331px; position: absolute; background: #E4BC55"></div>
+  <div class="Rectangle11" style="width: 146px; height: 36px; left: 126px; top: 393px; position: absolute; background: #E4BC55"></div>
+  <div class="Rectangle12" style="width: 146px; height: 36px; left: 154px; top: 455px; position: absolute; background: #E4BC55"></div>
+  <div class="Rectangle13" style="width: 146px; height: 36px; left: 126px; top: 519px; position: absolute; background: #E4BC55"></div>
+</div>
